@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #facc15;
+    --off-white: #f3f4f6;
+    --dark-gray: #64748b;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.highlight{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+/** container **/
+.container
+{
+    padding: 0rem 1rem;
+}
+
+.container-center
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white ;
+}
+
+.link-secondary
+{
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/** lists **/
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation
+{
+    background-color: var(--primary-color);
+    color: white ;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills
+{
+    text-align: right;
+}
+
+.navigation .link
+{
+    color: white ;
+}
+
+.navigation .nav-brand
+{
+    font-weight: bold;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero
+{
+    padding: 2rem;
+}
+
+.hero .hero-img
+{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading
+{
+   padding-top: 1rem;
+   color: var(--dark-gray);
+   text-align: center;
+}
+
+
+/** section **/
+
+.section
+{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow 
+{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white ;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link
+{
+    color: white;
+}
+
+.footer ul
+{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-heading
+{
+    font-weight: bold;
+}

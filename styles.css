@@ -157,3 +157,11 @@ hr{
 {
     font-weight: bold;
 }
+
+/** article css **/
+
+.show-list h1{
+    margin: 0.5rem;
+    text-align: center;
+}
+
